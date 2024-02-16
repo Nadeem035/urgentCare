@@ -113,7 +113,7 @@ $(function(){
 	       		{
 	       			$("#validateButton1").removeAttr('disabled');
 	       			$("#validateButton1").text('Submit');
-	       			$("input[name='image']").val(resp.data);
+	       			$("input[name='img']").val(resp.data);
 	       		}
 	       		else
 	       		{

@@ -7,8 +7,23 @@
     <meta name="description" content="Shops Bay Admin Panel">
     <meta name="author" content="">
     <title><?=APP_TITLE?> - Admin Panel</title>
-    <link rel="apple-touch-icon" href="<?=IMG?>logo/favicon.jpg" sizes="16x16">
-    <link rel="icon" href="<?=IMG?>logo/favicon.jpg" sizes="16x16">
+    <link rel="apple-touch-icon" sizes="57x57" href="<?=IMG.'favicon'?>/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?=IMG.'favicon'?>/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?=IMG.'favicon'?>/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?=IMG.'favicon'?>/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?=IMG.'favicon'?>/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?=IMG.'favicon'?>/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?=IMG.'favicon'?>/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?=IMG.'favicon'?>/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?=IMG.'favicon'?>/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="<?=IMG.'favicon'?>/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?=IMG.'favicon'?>/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?=IMG.'favicon'?>/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?=IMG.'favicon'?>/favicon-16x16.png">
+    <link rel="manifest" href="<?=IMG.'favicon'?>/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="<?=IMG.'favicon'?>/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- Stylesheets -->
     <link rel="stylesheet" href="<?=GLOBAL_?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=GLOBAL_?>css/bootstrap-extend.min.css">
