@@ -93,10 +93,10 @@ class Model_functions extends CI_Model {
 	public function blog($limit = 0)
 	{
 		if ($limit != 0) {
-			return $this->get_results("SELECT `title`,`slug`,`short`,`image`,`at` FROM `blog` ORDER BY `at` DESC LIMIT $limit;");
+			return $this->get_results("SELECT `blog_id`, `title`,`slug`,`short`,`image`,`at` FROM `blog` ORDER BY `at` DESC LIMIT $limit;");
 		}
 		else{
-			return $this->get_results("SELECT `title`,`slug`,`short`,`image`,`at` FROM `blog` ORDER BY `at` DESC;");
+			return $this->get_results("SELECT `blog_id`, `title`,`slug`,`short`,`image`,`at` FROM `blog` ORDER BY `at` DESC;");
 		}
 	}
 	public function get_blog_byid($id)
